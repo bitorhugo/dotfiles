@@ -74,11 +74,6 @@ _G.packer_plugins = {
     path = "/Users/VitorHugo/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
     url = "https://github.com/ellisonleao/gruvbox.nvim"
   },
-  ["nvim-treesitter"] = {
-    loaded = true,
-    path = "/Users/VitorHugo/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
-    url = "https://github.com/nvim-treesitter/nvim-treesitter"
-  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/Users/VitorHugo/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -89,10 +84,10 @@ _G.packer_plugins = {
     path = "/Users/VitorHugo/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
-  ["telescope.nvim"] = {
+  ["popup.nvim"] = {
     loaded = true,
-    path = "/Users/VitorHugo/.local/share/nvim/site/pack/packer/start/telescope.nvim",
-    url = "https://github.com/nvim-telescope/telescope.nvim"
+    path = "/Users/VitorHugo/.local/share/nvim/site/pack/packer/start/popup.nvim",
+    url = "https://github.com/nvim-lua/popup.nvim"
   }
 }
 
