@@ -49,6 +49,7 @@ return packer.startup(function(use)
 	use "ellisonleao/gruvbox.nvim" 	-- colorcheme gruvbox
 
 	use "neovim/nvim-lspconfig" -- lsp
+	use "williamboman/nvim-lsp-installer" -- lsp installer helper
 
 	use "hrsh7th/nvim-cmp" -- The completion plugin
 	use "hrsh7th/cmp-nvim-lsp" -- The completion plugin
