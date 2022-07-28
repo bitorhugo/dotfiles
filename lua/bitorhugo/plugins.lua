@@ -46,16 +46,23 @@ return packer.startup(function(use)
   use "wbthomason/packer.nvim" -- Have packer manage itself
   use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
-	use "ellisonleao/gruvbox.nvim" 	-- colorcheme gruvbox
+--	use "ellisonleao/gruvbox.nvim" 	-- colorcheme gruvbox
+--	use "sainnhe/gruvbox-material" -- gruvbox material
+		use 'folke/tokyonight.nvim'
+--	use 'EdenEast/nightfox.nvim' 
+--	use 'kyazdani42/blue-moon'
+--	use 'tomasiser/vim-code-dark'
 
 	use "neovim/nvim-lspconfig" -- lsp
 	use "williamboman/nvim-lsp-installer" -- lsp installer helper
+
+	use 'nvim-treesitter/nvim-treesitter' -- nvim-treesitter
 
 	use "hrsh7th/nvim-cmp" -- The completion plugin
 	use "hrsh7th/cmp-nvim-lsp" -- The completion plugin
   use "hrsh7th/cmp-buffer" -- buffer completions
   use "hrsh7th/cmp-path" -- path completions
-  use "hrsh7th/cmp-cmdline" -- cmdline completions
+  use "hrsh7th/cmp-cmdline" -- cmdline completionsgruvbox
   use "saadparwaiz1/cmp_luasnip" -- snippet completions
 
 	use "L3MON4D3/LuaSnip" --snippet engine
@@ -66,6 +73,8 @@ return packer.startup(function(use)
   'nvim-lualine/lualine.nvim',
   requires = { 'kyazdani42/nvim-web-devicons', opt = true }
   }
+
+	use {'nvim-telescope/telescope.nvim', tag = '0.1.0'}
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins

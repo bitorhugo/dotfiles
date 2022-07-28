@@ -10,10 +10,12 @@ local options = {
 	completeopt = menu, menuone, noselect,
 	background = "dark",
 	updatetime = 300,
-	splitbelow = true,
 	splitright = true,
+	splitbelow = true,
 	ignorecase = true,
 	backup = false,
+	hls = false,
+	termguicolors = true,
 }
 
 -- set each option from 'options' table
@@ -22,5 +24,5 @@ for k, v in pairs(options) do
 end
 
 -- run vimscript inside nvim with vim.cmd
-vim.cmd([[colorscheme gruvbox]])
+vim.cmd([[colorscheme tokyonight]])
 vim.cmd [[set iskeyword+=-]] -- treat special char words as one e.g: vim.cmd -> one word
