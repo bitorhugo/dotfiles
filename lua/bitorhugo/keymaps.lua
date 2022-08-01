@@ -10,8 +10,18 @@ keymap("", "<Space>", "<Nop>", opts)
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
+-- buffer movement
 keymap("n", "<C-h>", "<C-w>h", opts)
+keymap("n", "<C-l>", "<C-w>l", opts)
+keymap("n", "<C-j>", "<C-w>j", opts)
+keymap("n", "<C-k>", "<C-w>k", opts)
 
 -- Telescope
-keymap("n", "<leader>fa", ":Telescope find_files<cr>", opts)
+keymap("n", "<leader>ff", ":Telescope find_files<cr>", opts)
 keymap("n", "<leader>fg", ":Telescope git_files<cr>", opts)
+
+-- Insert Mode
+keymap("i", "<C-h>", "<esc>i", opts)
+keymap("i", "<C-l>", "<esc>a", opts)
+
+
