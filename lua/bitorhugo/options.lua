@@ -24,5 +24,5 @@ for k, v in pairs(options) do
 end
 
 -- run vimscript inside nvim with vim.cmd
-vim.cmd([[colorscheme tokyonight]])
+vim.cmd([[colorscheme gruvbox]])
 vim.cmd [[set iskeyword+=-]] -- treat special char words as one e.g: vim.cmd -> one word

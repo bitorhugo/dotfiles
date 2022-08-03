@@ -46,12 +46,13 @@ return packer.startup(function(use)
   use "wbthomason/packer.nvim" -- Have packer manage itself
   use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
---	use "ellisonleao/gruvbox.nvim" 	-- colorcheme gruvbox
+	use "ellisonleao/gruvbox.nvim" 	-- colorcheme gruvbox
 --	use "sainnhe/gruvbox-material" -- gruvbox material
 		use 'folke/tokyonight.nvim'
 --	use 'EdenEast/nightfox.nvim' 
 --	use 'kyazdani42/blue-moon'
 --	use 'tomasiser/vim-code-dark'
+		use 'marko-cerovac/material.nvim'
 
 	use "neovim/nvim-lspconfig" -- lsp
 	use "williamboman/nvim-lsp-installer" -- lsp installer helper
