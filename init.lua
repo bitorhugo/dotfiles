@@ -1,5 +1,6 @@
 require 'bitorhugo.options'
 require 'bitorhugo.keymaps'
+require 'bitorhugo.colorscheme'
 require 'bitorhugo.plugins'
 require 'bitorhugo.cmp'
 require 'bitorhugo.lsp-installer'
