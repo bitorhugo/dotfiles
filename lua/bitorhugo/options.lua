@@ -16,6 +16,7 @@ local options = {
 	backup = false,
 	hls = false,
 	termguicolors = true,
+	guicursor = "", 
 }
 
 -- set each option from 'options' table
